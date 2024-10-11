@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum de David Sanchez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="img.jpeg" alt="Foto de David Valentin Sanchez Alonso" class="profile-pic">
+            <h1>David Valentin Sanchez Alonso</h1>
+            <p>Ingeniero de Software | Ciberseguridad</p>
+        </header>
+
+        <section id="perfil">
+            <h2>Perfil Profesional</h2>
+            <p>Recien graduado en Ingeniería Informática con experiencia en áreas técnicas como soporte técnico, 
+                desarrollo de software y administración de sistemas. Especializado en la creación de plataformas web con 
+                autenticación y gestión avanzada de usuarios, incluyendo una plataforma académica que fue reconocida con una carta de recomendación. 
+                Capaz de aprender rápidamente nuevas tecnologías, resolver problemas de manera eficiente y trabajar en equipo. 
+                En busca de una oportunidad para aplicar y ampliar mis conocimientos en ciberseguridad y desarrollo de software en un entorno desafiante.</p>
+        </section>
+
+        <section id="formacion">
+            <h2>Formación Académica</h2>
+            <ul>
+                <li><h3 onclick="toggleDetails('linux')">Introducción a Linux <span id="arrow-linux">▼</span></h3>
+                    <div id="linux" class="details">
+                        <p>Ciencias de la computación</p>
+                        <p>Hack4u, Santa Cruz de Tenerife, TF (03/2023 - 04/2023)</p>
+                    </div>
+                </li>
+                <li><h3 onclick="toggleDetails('personalizacion')">Personalización de entorno en Linux <span id="arrow-personalizacion">▼</span></h3>
+                    <div id="personalizacion" class="details">
+                        <p>Personalización de entorno en Linux</p>
+                        <p>Hack4u, Santa Cruz de Tenerife, TF (04/2024 - 04/2024)</p>
+                    </div>
+                </li>
+                <li><h3 onclick="toggleDetails('hacking')">Introducción al hacking <span id="arrow-hacking">▼</span></h3>
+                    <div id="hacking" class="details">
+                        <p>Fundamentos de redes, seguridad de sistemas y aplicaciones</p>
+                        <p>Hack4u, Santa Cruz de Tenerife, TF (04/2024 - 04/2024)</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="experiencia">
+            <h2>Experiencia Profesional</h2>
+            <ul>
+                <li><h3 onclick="toggleDetails('admin')">Auxiliar administrativo <span id="arrow-admin">▼</span></h3>
+                    <div id="admin" class="details">
+                        <p>Gestoría Administrativa Covadonga SLP, Madrid (01/2024 - Actual)</p>
+                        <p>Realización de tareas administrativas, incluyendo gestión de documentos y soporte en trámites telemáticos.</p>
+                    </div>
+                </li>
+                <li><h3 onclick="toggleDetails('vehiculos')">Venta de vehículos <span id="arrow-vehiculos">▼</span></h3>
+                    <div id="vehiculos" class="details">
+                        <p>Juncarobíl SL, Madrid (04/2023 - 12/2023)</p>
+                        <p>Atención personalizada a clientes, análisis de competencia y gestión de relación con proveedores.</p>
+                    </div>
+                </li>
+                <li><h3 onclick="toggleDetails('backend')">Especialista en Ventas y Gestión de Backend <span id="arrow-backend">▼</span></h3>
+                    <div id="backend" class="details">
+                        <p>Bazar India, Madrid (07/2023 - 08/2023)</p>
+                        <p>Identificación de necesidades, formación continua en técnicas de venta y reparación remota de hardware y software.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos Personales</h2>
+            <ul>
+                <li><h3 onclick="toggleDetails('voz')">Aplicación de control por voz entre iPhone y Windows <span id="arrow-voz">▼</span></h3>
+                    <div id="voz" class="details">
+                        <p>Desarrollo de una aplicación para controlar un ordenador a través de comandos de voz desde un iPhone o iPad, superando las restricciones habituales entre dispositivos Apple y sistemas operativos distintos a macOS.</p>
+                    </div>
+                </li>
+                <li><h3 onclick="toggleDetails('jammer')">Jammer de señales para vehículos <span id="arrow-jammer">▼</span></h3>
+                    <div id="jammer" class="details">
+                        <p>Creación de un dispositivo de bloqueo de señales para interferir con las llaves electrónicas de vehículos, enfocado en el estudio y prueba de vulnerabilidades en los sistemas de comunicación inalámbrica.</p>
+                    </div>
+                </li>
+                <li><h3 onclick="toggleDetails('trabajo-web')">Trabajo-web <span id="arrow-trabajo-web">▼</span></h3>
+                    <div id="trabajo-web" class="details">
+                        <p>Aplicación desarrollada en React para gestionar una lista de notas. Los usuarios pueden crear, buscar y eliminar notas. <a href="https://github.com/DavidBoss957/Trabajo-web">Ver en GitHub</a></p>
+                    </div>
+                </li>
+                <li><h3 onclick="toggleDetails('sqli')">ScriptSQLi <span id="arrow-sqli">▼</span></h3>
+                    <div id="sqli" class="details">
+                        <p>Script en Shell diseñado para automatizar pruebas de inyección SQL (SQLi) en aplicaciones web. El script busca vulnerabilidades en bases de datos mediante ataques de SQL Injection. <a href="https://github.com/DavidBoss957/ScriptSQLi">Ver en GitHub</a></p>
+                    </div>
+                </li>
+                <li><h3 onclick="toggleDetails('lambda')">Twitter_Lambda <span id="arrow-lambda">▼</span></h3>
+                    <div id="lambda" class="details">
+                        <p>Funciones Lambda en Python que interactúan con la API de Twitter. Estas funciones permiten automatizar tareas como la extracción de datos o la gestión de tweets. <a href="https://github.com/DavidBoss957/Twitter_Lambda">Ver en GitHub</a></p>
+                    </div>
+                </li>
+                <li><h3 onclick="toggleDetails('cinema')">CinemaApp <span id="arrow-cinema">▼</span></h3>
+                    <div id="cinema" class="details">
+                        <p>Aplicación desarrollada en Kotlin para gestionar reservas de entradas, visualización de carteleras y administración de películas. <a href="https://github.com/DavidBoss957/CinemaApp">Ver en GitHub</a></p>
+                    </div>
+                </li>
+                <li><h3 onclick="toggleDetails('trabajo2q')">Trabajo2Q <span id="arrow-trabajo2q">▼</span></h3>
+                    <div id="trabajo2q" class="details">
+                        <p>Plataforma web para gestionar trabajos y perfiles de estudiantes. Incluye autenticación automática con correos institucionales y un sistema avanzado de búsqueda de trabajos. <a href="https://github.com/DavidBoss957/Trabajo2Q">Ver en GitHub</a></p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>Contacto: davidolo957@gmail.com | <a href="https://github.com/DavidBoss957">GitHub</a> | <a href="http://www.linkedin.com/in/david-sanchez-07b186292">LinkedIn</a></p>
+        </footer>
+    </div>
+
+    <script>
+        function toggleDetails(id) {
+            const element = document.getElementById(id);
+            const arrow = document.getElementById(`arrow-${id}`);
+            if (element.style.display === 'none' || element.style.display === '') {
+                element.style.display = 'block';
+                arrow.textContent = '▲'; // Cambia la flecha a arriba
+            } else {
+                element.style.display = 'none';
+                arrow.textContent = '▼'; // Cambia la flecha a abajo
+            }
+        }
+    </script>
+</body>
+</html>
