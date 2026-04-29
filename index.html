@@ -16,16 +16,36 @@
 
         <section id="perfil">
             <h2>Perfil Profesional</h2>
-            <p>Graduado en Ingeniería Informática con experiencia en áreas técnicas como soporte técnico, desarrollo de software, 
-                administración de sistemas y liderazgo de proyectos. He dirigido el desarrollo completo de una página web integrando inteligencia 
-                artificial para la detección de objetos y generación automática de informes. Especializado en la creación de plataformas web con 
-                autenticación y gestión avanzada de usuarios, incluyendo una plataforma académica reconocida con una carta de recomendación. 
-                Capaz de aprender rápidamente nuevas tecnologías, resolver problemas de manera eficiente y trabajar en equipo. En busca de una 
-                oportunidad para aplicar y ampliar mis conocimientos en ciberseguridad, desarrollo software y desarrollo Full Stack en un entorno desafiante.</p>
+            <p>Graduado en Ingeniería Informática con experiencia en áreas técnicas como soporte técnico, desarrollo de software y administración de sistemas. Especializado en la creación de plataformas web con autenticación y gestión avanzada de usuarios, incluyendo una plataforma académica reconocida con una carta de recomendación. Durante el último año he formado parte del departamento de QA de Telefónica, donde he desarrollado herramientas de automatización de pruebas de accesibilidad y agentes de inteligencia artificial capaces de ejecutar y ampliar la cobertura de pruebas automáticas, aplicando estándares como WCAG 2.2 en entornos corporativos de alto impacto. Capaz de aprender rápidamente nuevas tecnologías, resolver problemas de manera eficiente y trabajar en equipo. En busca de una oportunidad para aplicar y ampliar mis conocimientos en ciberseguridad y desarrollo de software en un entorno desafiante.</p>
         </section>
 
         <section id="formacion">
             <h2>Formación Académica</h2>
+            <ul>
+                <li><h3 onclick="toggleDetails('utad')">Ingeniería de Software – Ciberseguridad <span id="arrow-utad">▼</span></h3>
+                    <div id="utad" class="details">
+                        <p>Ingeniería de software, ciencias de la computación y seguridad de la información</p>
+                        <p>U-Tad, Las Rozas, Madrid (09/2021 - En curso)</p>
+                        <p>— Carta de recomendación otorgada por el excelente desempeño en el trabajo final del curso 2024.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="certificaciones">
+            <h2>Certificaciones</h2>
+            <ul>
+                <li><h3 onclick="toggleDetails('ejpt')">eJPT – eLearnSecurity Junior Penetration Tester <span id="arrow-ejpt">▼</span></h3>
+                    <div id="ejpt" class="details">
+                        <p>eLearnSecurity / INE</p>
+                        <p>Certificación práctica en pentesting, fundamentos de redes, explotación de vulnerabilidades y seguridad de aplicaciones web.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="cursos">
+            <h2>Cursos</h2>
             <ul>
                 <li><h3 onclick="toggleDetails('linux')">Introducción a Linux <span id="arrow-linux">▼</span></h3>
                     <div id="linux" class="details">
@@ -76,7 +96,7 @@
                     <div id="fullstack" class="details">
                       <p>Eonsea, Sevilla (02/2025 - 04/2025)</p>
                       <p>
-                        Dirección de un pequeño equipo de desarrollo para crear una página web desde cero. Encargado del diseño e implementación del frontend y backend, incluyendo autenticación, gestión de base de datos y panel administrativo. Se integró una solución de inteligencia artificial para la detección de objetos en imágenes y la generación automática de informes. 
+                        Dirección de un pequeño equipo de desarrollo para crear una página web desde cero. Encargado del diseño e implementación del frontend y backend, incluyendo autenticación, gestión de base de datos y panel administrativo. Se integró una solución de inteligencia artificial para la detección de objetos en imágenes y la generación automática de informes.
                         <br><br>
                         Además, realicé tareas de ciberseguridad durante el desarrollo, analizando posibles vulnerabilidades en la infraestructura, aplicando buenas prácticas de seguridad en la gestión de datos y control de acceso, y realizando pruebas básicas de penetración para garantizar la integridad del sistema.
                         <br><br>
@@ -86,17 +106,21 @@
                 </li>
                 <li>
                     <h3 onclick="toggleDetails('telefonica')">
-                      Desarrollador Web – Proyecto de Automatización de Accesibilidad<span id="arrow-telefonica">▼</span>
+                      Ingeniero QA – Automatización de Accesibilidad e IA <span id="arrow-telefonica">▼</span>
                     </h3>
                     <div id="telefonica" class="details">
-                      <p>Telefónica (06/2025 - Presente)</p>
+                      <p>Telefónica, Madrid (06/2024 - Presente)</p>
                       <p>
-                        Plataforma web desarrollada en Django que automatiza la evaluación de accesibilidad web basada en los estandares de la WCAG. Este sistema combina analisis estatico de código HTML, pruebas automatizadas con Selenium WebDriver e inteligencia artificial mediante Azure OpenAI para generar reportes detallados sobre el cumplimiento de los criterios de accesibilidad en la web 
+                        Desarrollo de WCAGlyzer, una plataforma web en Django que automatiza la evaluación de accesibilidad web basada en los estándares WCAG 2.2. El sistema combina análisis estático de código HTML, pruebas automatizadas con Selenium WebDriver e inteligencia artificial mediante Azure OpenAI para generar reportes detallados sobre el cumplimiento de los criterios de accesibilidad.
                         <br><br>
-                        Tecnologías utilizadas: HTML, CSS, Python, JavaScript, Django, Github, Pytest, Docker, Axe-core, MySQL, SQLite, Bootstrap, Azure OpenAI, OpenAI SDK, Selenium, Behave, Chrome, Chromium, BeautifulSoup4, Nginx
+                        Diseño e implementación de agentes de IA capaces de ejecutar y ampliar la cobertura de pruebas automáticas en entornos corporativos de alto impacto.
+                        <br><br>
+                        — Carta de recomendación otorgada por el excelente desempeño durante el año de desarrollo del proyecto.
+                        <br><br>
+                        Tecnologías utilizadas: Python, Django, Selenium, Behave, Toolium, Azure OpenAI, OpenAI SDK, Docker, GitHub, Pytest, Axe-core, MySQL, SQLite, Bootstrap, BeautifulSoup4, Nginx, Confluence, JIRA.
                       </p>
                     </div>
-                </li>               
+                </li>
             </ul>
         </section>
 
@@ -144,6 +168,21 @@
             </ul>
         </section>
 
+        <section id="habilidades">
+            <h2>Habilidades Técnicas</h2>
+            <ul>
+                <li>Lenguajes de Programación: C++ (desarrollo de algoritmos), C, Python, Bash, Java, JavaScript</li>
+                <li>Desarrollo Web: HTML, CSS, React, Tailwind, Django</li>
+                <li>Administración de Sistemas: Linux (alto nivel), Docker, VirtualBox</li>
+                <li>Bases de Datos: MySQL, MongoDB</li>
+                <li>Control de Versiones: Git, GitHub</li>
+                <li>Cloud Computing: AWS (gestión y despliegue de servicios), Microsoft Azure</li>
+                <li>Documentación y Gestión: Confluence</li>
+                <li>Testing y QA: Selenium, Toolium, JIRA</li>
+                <li>Inteligencia Artificial: Azure OpenAI, API de OpenAI, Agentes IA, Subagentes de código Claude</li>
+            </ul>
+        </section>
+
         <footer>
             <p>Contacto: davidolo957@gmail.com | <a href="https://github.com/DavidBoss957">GitHub</a> | <a href="http://www.linkedin.com/in/david-sanchez-07b186292">LinkedIn</a></p>
         </footer>
@@ -155,10 +194,10 @@
             const arrow = document.getElementById(`arrow-${id}`);
             if (element.style.display === 'none' || element.style.display === '') {
                 element.style.display = 'block';
-                arrow.textContent = '▲'; // Cambia la flecha a arriba
+                arrow.textContent = '▲';
             } else {
                 element.style.display = 'none';
-                arrow.textContent = '▼'; // Cambia la flecha a abajo
+                arrow.textContent = '▼';
             }
         }
     </script>
